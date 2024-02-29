@@ -1,0 +1,120 @@
+         37836413 function calls (35836415 primitive calls) in 10.157 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.005    0.005   10.156   10.156 <string>:1(<module>)
+1999999/1    8.296    0.000   10.151   10.151 mergesort.py:3(merge_sort)
+        1    0.000    0.000   10.157   10.157 {built-in method builtins.exec}
+ 35836411    1.855    0.000    1.855    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         39017852 function calls (37017854 primitive calls) in 10.737 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.005    0.005   10.736   10.736 <string>:1(<module>)
+1999999/1    8.780    0.000   10.731   10.731 mergesort.py:3(merge_sort)
+        1    0.000    0.000   10.737   10.737 {built-in method builtins.exec}
+ 37017850    1.951    0.000    1.951    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         47111779 function calls (45111781 primitive calls) in 14.151 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.014    0.014   14.151   14.151 <string>:1(<module>)
+1999999/1   11.587    0.000   14.136   14.136 mergesort.py:3(merge_sort)
+        1    0.000    0.000   14.151   14.151 {built-in method builtins.exec}
+ 45111777    2.549    0.000    2.549    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         47111315 function calls (45111317 primitive calls) in 14.332 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.014    0.014   14.332   14.332 <string>:1(<module>)
+1999999/1   11.774    0.000   14.318   14.318 mergesort.py:3(merge_sort)
+        1    0.000    0.000   14.332   14.332 {built-in method builtins.exec}
+ 45111313    2.544    0.000    2.544    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         47112587 function calls (45112589 primitive calls) in 14.646 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.014    0.014   14.646   14.646 <string>:1(<module>)
+1999999/1   11.988    0.000   14.632   14.632 mergesort.py:3(merge_sort)
+        1    0.000    0.000   14.646   14.646 {built-in method builtins.exec}
+ 45112585    2.644    0.000    2.644    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         47112146 function calls (45112148 primitive calls) in 14.638 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.014    0.014   14.638   14.638 <string>:1(<module>)
+1999999/1   11.985    0.000   14.624   14.624 mergesort.py:3(merge_sort)
+        1    0.000    0.000   14.638   14.638 {built-in method builtins.exec}
+ 45112144    2.639    0.000    2.639    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         47113292 function calls (45113294 primitive calls) in 14.700 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.014    0.014   14.699   14.699 <string>:1(<module>)
+1999999/1   12.023    0.000   14.685   14.685 mergesort.py:3(merge_sort)
+        1    0.000    0.000   14.700   14.700 {built-in method builtins.exec}
+ 45113290    2.662    0.000    2.662    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         47112692 function calls (45112694 primitive calls) in 14.641 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.014    0.014   14.641   14.641 <string>:1(<module>)
+1999999/1   12.013    0.000   14.627   14.627 mergesort.py:3(merge_sort)
+        1    0.000    0.000   14.641   14.641 {built-in method builtins.exec}
+ 45112690    2.614    0.000    2.614    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         47113850 function calls (45113852 primitive calls) in 14.828 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.014    0.014   14.828   14.828 <string>:1(<module>)
+1999999/1   12.139    0.000   14.814   14.814 mergesort.py:3(merge_sort)
+        1    0.000    0.000   14.828   14.828 {built-in method builtins.exec}
+ 45113848    2.675    0.000    2.675    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         47112158 function calls (45112160 primitive calls) in 14.582 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.014    0.014   14.582   14.582 <string>:1(<module>)
+1999999/1   11.971    0.000   14.568   14.568 mergesort.py:3(merge_sort)
+        1    0.000    0.000   14.582   14.582 {built-in method builtins.exec}
+ 45112156    2.597    0.000    2.597    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+

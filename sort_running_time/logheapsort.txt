@@ -1,0 +1,130 @@
+         21787798 function calls (3000005 primitive calls) in 15.289 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   15.289   15.289 <string>:1(<module>)
+        1    0.680    0.680   15.289   15.289 heapsort.py:23(heap_sort)
+20787792/1999999   14.552    0.000   14.552    0.000 heapsort.py:3(build_heap)
+        1    0.000    0.000   15.289   15.289 {built-in method builtins.exec}
+  1000002    0.057    0.000    0.057    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         20333414 function calls (3000005 primitive calls) in 15.488 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   15.488   15.488 <string>:1(<module>)
+        1    0.718    0.718   15.488   15.488 heapsort.py:23(heap_sort)
+19333408/1999999   14.712    0.000   14.712    0.000 heapsort.py:3(build_heap)
+        1    0.000    0.000   15.488   15.488 {built-in method builtins.exec}
+  1000002    0.058    0.000    0.058    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         21049610 function calls (3000005 primitive calls) in 18.414 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   18.414   18.414 <string>:1(<module>)
+        1    0.848    0.848   18.414   18.414 heapsort.py:23(heap_sort)
+20049604/1999999   17.502    0.000   17.502    0.000 heapsort.py:3(build_heap)
+        1    0.000    0.000   18.414   18.414 {built-in method builtins.exec}
+  1000002    0.064    0.000    0.064    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         21048806 function calls (3000005 primitive calls) in 18.641 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   18.641   18.641 <string>:1(<module>)
+        1    0.866    0.866   18.641   18.641 heapsort.py:23(heap_sort)
+20048800/1999999   17.708    0.000   17.708    0.000 heapsort.py:3(build_heap)
+        1    0.000    0.000   18.641   18.641 {built-in method builtins.exec}
+  1000002    0.067    0.000    0.067    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         21049346 function calls (3000005 primitive calls) in 18.552 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   18.552   18.552 <string>:1(<module>)
+        1    0.881    0.881   18.552   18.552 heapsort.py:23(heap_sort)
+20049340/1999999   17.606    0.000   17.606    0.000 heapsort.py:3(build_heap)
+        1    0.000    0.000   18.552   18.552 {built-in method builtins.exec}
+  1000002    0.065    0.000    0.065    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         21047271 function calls (3000005 primitive calls) in 18.735 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   18.735   18.735 <string>:1(<module>)
+        1    0.887    0.887   18.735   18.735 heapsort.py:23(heap_sort)
+20047265/1999999   17.781    0.000   17.781    0.000 heapsort.py:3(build_heap)
+        1    0.000    0.000   18.735   18.735 {built-in method builtins.exec}
+  1000002    0.066    0.000    0.066    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         21049368 function calls (3000005 primitive calls) in 20.212 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   20.212   20.212 <string>:1(<module>)
+        1    0.962    0.962   20.212   20.212 heapsort.py:23(heap_sort)
+20049362/1999999   19.175    0.000   19.175    0.000 heapsort.py:3(build_heap)
+        1    0.000    0.000   20.212   20.212 {built-in method builtins.exec}
+  1000002    0.075    0.000    0.075    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         21047981 function calls (3000005 primitive calls) in 19.728 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   19.727   19.727 <string>:1(<module>)
+        1    0.917    0.917   19.727   19.727 heapsort.py:23(heap_sort)
+20047975/1999999   18.738    0.000   18.738    0.000 heapsort.py:3(build_heap)
+        1    0.000    0.000   19.728   19.728 {built-in method builtins.exec}
+  1000002    0.072    0.000    0.072    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         21049041 function calls (3000005 primitive calls) in 19.731 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   19.731   19.731 <string>:1(<module>)
+        1    0.919    0.919   19.731   19.731 heapsort.py:23(heap_sort)
+20049035/1999999   18.744    0.000   18.744    0.000 heapsort.py:3(build_heap)
+        1    0.000    0.000   19.731   19.731 {built-in method builtins.exec}
+  1000002    0.067    0.000    0.067    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         21048577 function calls (3000005 primitive calls) in 19.653 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   19.653   19.653 <string>:1(<module>)
+        1    0.916    0.916   19.653   19.653 heapsort.py:23(heap_sort)
+20048571/1999999   18.665    0.000   18.665    0.000 heapsort.py:3(build_heap)
+        1    0.000    0.000   19.653   19.653 {built-in method builtins.exec}
+  1000002    0.072    0.000    0.072    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+

@@ -1,0 +1,150 @@
+         8 function calls in 0.056 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.056    0.056 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:861(_sort_dispatcher)
+        1    0.000    0.000    0.056    0.056 fromnumeric.py:865(sort)
+        1    0.000    0.000    0.056    0.056 {built-in method builtins.exec}
+        1    0.044    0.044    0.044    0.044 {built-in method numpy.asanyarray}
+        1    0.003    0.003    0.003    0.003 {method 'copy' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.010    0.010    0.010    0.010 {method 'sort' of 'numpy.ndarray' objects}
+
+
+         8 function calls in 0.065 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.065    0.065 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:861(_sort_dispatcher)
+        1    0.000    0.000    0.065    0.065 fromnumeric.py:865(sort)
+        1    0.000    0.000    0.065    0.065 {built-in method builtins.exec}
+        1    0.043    0.043    0.043    0.043 {built-in method numpy.asanyarray}
+        1    0.003    0.003    0.003    0.003 {method 'copy' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.019    0.019    0.019    0.019 {method 'sort' of 'numpy.ndarray' objects}
+
+
+         8 function calls in 0.112 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.112    0.112 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:861(_sort_dispatcher)
+        1    0.000    0.000    0.112    0.112 fromnumeric.py:865(sort)
+        1    0.000    0.000    0.112    0.112 {built-in method builtins.exec}
+        1    0.042    0.042    0.042    0.042 {built-in method numpy.asanyarray}
+        1    0.001    0.001    0.001    0.001 {method 'copy' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.068    0.068    0.068    0.068 {method 'sort' of 'numpy.ndarray' objects}
+
+
+         8 function calls in 0.112 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.112    0.112 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:861(_sort_dispatcher)
+        1    0.000    0.000    0.112    0.112 fromnumeric.py:865(sort)
+        1    0.000    0.000    0.112    0.112 {built-in method builtins.exec}
+        1    0.042    0.042    0.042    0.042 {built-in method numpy.asanyarray}
+        1    0.002    0.002    0.002    0.002 {method 'copy' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.068    0.068    0.068    0.068 {method 'sort' of 'numpy.ndarray' objects}
+
+
+         8 function calls in 0.113 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.113    0.113 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:861(_sort_dispatcher)
+        1    0.000    0.000    0.113    0.113 fromnumeric.py:865(sort)
+        1    0.000    0.000    0.113    0.113 {built-in method builtins.exec}
+        1    0.043    0.043    0.043    0.043 {built-in method numpy.asanyarray}
+        1    0.001    0.001    0.001    0.001 {method 'copy' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.069    0.069    0.069    0.069 {method 'sort' of 'numpy.ndarray' objects}
+
+
+         8 function calls in 0.114 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.114    0.114 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:861(_sort_dispatcher)
+        1    0.000    0.000    0.114    0.114 fromnumeric.py:865(sort)
+        1    0.000    0.000    0.114    0.114 {built-in method builtins.exec}
+        1    0.043    0.043    0.043    0.043 {built-in method numpy.asanyarray}
+        1    0.001    0.001    0.001    0.001 {method 'copy' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.070    0.070    0.070    0.070 {method 'sort' of 'numpy.ndarray' objects}
+
+
+         8 function calls in 0.114 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.114    0.114 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:861(_sort_dispatcher)
+        1    0.000    0.000    0.114    0.114 fromnumeric.py:865(sort)
+        1    0.000    0.000    0.114    0.114 {built-in method builtins.exec}
+        1    0.043    0.043    0.043    0.043 {built-in method numpy.asanyarray}
+        1    0.002    0.002    0.002    0.002 {method 'copy' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.069    0.069    0.069    0.069 {method 'sort' of 'numpy.ndarray' objects}
+
+
+         8 function calls in 0.113 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.113    0.113 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:861(_sort_dispatcher)
+        1    0.000    0.000    0.113    0.113 fromnumeric.py:865(sort)
+        1    0.000    0.000    0.113    0.113 {built-in method builtins.exec}
+        1    0.042    0.042    0.042    0.042 {built-in method numpy.asanyarray}
+        1    0.001    0.001    0.001    0.001 {method 'copy' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.069    0.069    0.069    0.069 {method 'sort' of 'numpy.ndarray' objects}
+
+
+         8 function calls in 0.113 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.113    0.113 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:861(_sort_dispatcher)
+        1    0.000    0.000    0.113    0.113 fromnumeric.py:865(sort)
+        1    0.000    0.000    0.113    0.113 {built-in method builtins.exec}
+        1    0.042    0.042    0.042    0.042 {built-in method numpy.asanyarray}
+        1    0.001    0.001    0.001    0.001 {method 'copy' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.069    0.069    0.069    0.069 {method 'sort' of 'numpy.ndarray' objects}
+
+
+         8 function calls in 0.114 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.113    0.113 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:861(_sort_dispatcher)
+        1    0.000    0.000    0.113    0.113 fromnumeric.py:865(sort)
+        1    0.000    0.000    0.114    0.114 {built-in method builtins.exec}
+        1    0.042    0.042    0.042    0.042 {built-in method numpy.asanyarray}
+        1    0.001    0.001    0.001    0.001 {method 'copy' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.070    0.070    0.070    0.070 {method 'sort' of 'numpy.ndarray' objects}
+
+
