@@ -1,11 +1,8 @@
-*.app
-*.bat
-*.cgi
-*.com
-*.exe
-*.gadget
-*.jar
-*.pif
-*.vb
-*.wsf
+# Ignore all
+*
 
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
