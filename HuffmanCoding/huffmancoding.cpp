@@ -327,6 +327,7 @@ void DecompressFile(char* inputPath, char* outputPath)
     WriteFileFromBuffer(outputPath, outputBuffer,sz, 0);
 }
 
+
 int main(int argc, char* argv[])
 {   
     if (argc == 4 && (strcmp(argv[1], "--compress") == 0 || strcmp(argv[1], "-c") == 0)) {
