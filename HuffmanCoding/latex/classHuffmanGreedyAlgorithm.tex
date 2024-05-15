@@ -1,0 +1,161 @@
+\doxysection{Huffman\+Greedy\+Algorithm Class Reference}
+\hypertarget{classHuffmanGreedyAlgorithm}{}\label{classHuffmanGreedyAlgorithm}\index{HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structTree}{Tree}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classHuffmanGreedyAlgorithm_a90d54ef1eb8b3815f04ca662e867f79a}{Build\+Tree}} (vector$<$ pair$<$ unsigned char, int $>$ $>$ f\+\_\+table)
+\begin{DoxyCompactList}\small\item\em A class for getting input from files, process using Huffman coding and write to output file. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classHuffmanGreedyAlgorithm_a72ffb942b645db8ad1a01841628c5085}{To\+Binary}} (unsigned char a)
+\item 
+void \mbox{\hyperlink{classHuffmanGreedyAlgorithm_a8170c7b7dd10cb52ee39b9a3282b0ad0}{Traverse\+Huffman\+Tree}} (\mbox{\hyperlink{structTree}{Tree}} \texorpdfstring{$\ast$}{*}root, string prev, string to\+Append, map$<$ unsigned char, string $>$ \&codemap)
+\item 
+unsigned char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classHuffmanGreedyAlgorithm_adbe8567429f4200e2e12e14adedf5b0d}{Read\+File\+Into\+Buffer}} (char \texorpdfstring{$\ast$}{*}path, int \&sz)
+\item 
+void \mbox{\hyperlink{classHuffmanGreedyAlgorithm_a20ae928e1450bbe2601d47f95495a94a}{Write\+File\+From\+Buffer}} (char \texorpdfstring{$\ast$}{*}path, unsigned char \texorpdfstring{$\ast$}{*}buffer, int sz, int flag)
+\item 
+vector$<$ pair$<$ unsigned char, int $>$ $>$ \mbox{\hyperlink{classHuffmanGreedyAlgorithm_afcad024901e2456f750d16dc80bdcb4d}{Convert\+To\+Vector}} (map$<$ unsigned char, int $>$ codes)
+\item 
+string \mbox{\hyperlink{classHuffmanGreedyAlgorithm_a92b91586a36af11678103a586eab8e21}{Get\+Huffman\+Bitstring}} (unsigned char \texorpdfstring{$\ast$}{*}buffer, map$<$ unsigned char, string $>$ codes, int sz, int \&pad)
+\item 
+unsigned char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classHuffmanGreedyAlgorithm_a5e13d60335421a8c7f6ca2785a774ae4}{Get\+Buffer\+From\+String}} (string bitstring, vector$<$ unsigned char $>$ \&output\+Buffer, int \&sz)
+\item 
+string \mbox{\hyperlink{classHuffmanGreedyAlgorithm_a33b4be74ad8d06c03d1eb7cb844847af}{Get\+String\+From\+Buffer}} (unsigned char \texorpdfstring{$\ast$}{*}buffer, int sz)
+\item 
+unsigned char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classHuffmanGreedyAlgorithm_abea600a29ce2689be82562120cea6ecc}{Get\+Decoded\+Buffer}} (string bitstring, vector$<$ unsigned char $>$ \&buffer, map$<$ unsigned char, string $>$ codes, int \&sz, int pad)
+\item 
+void \mbox{\hyperlink{classHuffmanGreedyAlgorithm_a3b68e3cbb24aff692a8d8027a6f6c13a}{Write\+Header}} (char \texorpdfstring{$\ast$}{*}path, map$<$ unsigned char, string $>$ codes, int pad)
+\item 
+unsigned char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classHuffmanGreedyAlgorithm_a964477250db8bd5f0f9fbd61ceeaec91}{Read\+Header}} (unsigned char \texorpdfstring{$\ast$}{*}buffer, map$<$ unsigned char, string $>$ \&codes, int \&pad, int \&sz)
+\item 
+void \mbox{\hyperlink{classHuffmanGreedyAlgorithm_ac27f0ca90952ff0bef459dec6b28ea90}{Compress\+File}} (char \texorpdfstring{$\ast$}{*}path, char \texorpdfstring{$\ast$}{*}output\+\_\+path, map$<$ unsigned char, string $>$ \&codes)
+\item 
+void \mbox{\hyperlink{classHuffmanGreedyAlgorithm_a74733c9064d5e4e191a97bf2655e1c4f}{Decompress\+File}} (char \texorpdfstring{$\ast$}{*}input\+Path, char \texorpdfstring{$\ast$}{*}output\+Path)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classHuffmanGreedyAlgorithm_a90d54ef1eb8b3815f04ca662e867f79a}\label{classHuffmanGreedyAlgorithm_a90d54ef1eb8b3815f04ca662e867f79a} 
+\index{HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}!BuildTree@{BuildTree}}
+\index{BuildTree@{BuildTree}!HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}}
+\doxysubsubsection{\texorpdfstring{BuildTree()}{BuildTree()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structTree}{Tree}} \texorpdfstring{$\ast$}{*} Huffman\+Greedy\+Algorithm\+::\+Build\+Tree (\begin{DoxyParamCaption}\item[{vector$<$ pair$<$ unsigned char, int $>$ $>$}]{f\+\_\+table }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A class for getting input from files, process using Huffman coding and write to output file. 
+
+Build \doxylink{structTree}{Tree} based on a table of character and frequency of that character
+
+This should be a heap but a priority queue provide getting min items at complexity of log(n) so it should be ok
+
+merge two node into one, this will increase average leaf depth
+
+return the root of the tree\Hypertarget{classHuffmanGreedyAlgorithm_ac27f0ca90952ff0bef459dec6b28ea90}\label{classHuffmanGreedyAlgorithm_ac27f0ca90952ff0bef459dec6b28ea90} 
+\index{HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}!CompressFile@{CompressFile}}
+\index{CompressFile@{CompressFile}!HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}}
+\doxysubsubsection{\texorpdfstring{CompressFile()}{CompressFile()}}
+{\footnotesize\ttfamily void Huffman\+Greedy\+Algorithm\+::\+Compress\+File (\begin{DoxyParamCaption}\item[{char \texorpdfstring{$\ast$}{*}}]{path,  }\item[{char \texorpdfstring{$\ast$}{*}}]{output\+\_\+path,  }\item[{map$<$ unsigned char, string $>$ \&}]{codes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Compress the file
+
+first read the original file into buffer
+
+build huffman tree
+
+get the character to bitstring map
+
+get bitstring
+
+get buffer to write from the above bitstring
+
+write header and write buffer to output file\Hypertarget{classHuffmanGreedyAlgorithm_afcad024901e2456f750d16dc80bdcb4d}\label{classHuffmanGreedyAlgorithm_afcad024901e2456f750d16dc80bdcb4d} 
+\index{HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}!ConvertToVector@{ConvertToVector}}
+\index{ConvertToVector@{ConvertToVector}!HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}}
+\doxysubsubsection{\texorpdfstring{ConvertToVector()}{ConvertToVector()}}
+{\footnotesize\ttfamily vector$<$ pair$<$ unsigned char, int $>$ $>$ Huffman\+Greedy\+Algorithm\+::\+Convert\+To\+Vector (\begin{DoxyParamCaption}\item[{map$<$ unsigned char, int $>$}]{codes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+from the input table of huffman code, convert it to a vector\Hypertarget{classHuffmanGreedyAlgorithm_a74733c9064d5e4e191a97bf2655e1c4f}\label{classHuffmanGreedyAlgorithm_a74733c9064d5e4e191a97bf2655e1c4f} 
+\index{HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}!DecompressFile@{DecompressFile}}
+\index{DecompressFile@{DecompressFile}!HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}}
+\doxysubsubsection{\texorpdfstring{DecompressFile()}{DecompressFile()}}
+{\footnotesize\ttfamily void Huffman\+Greedy\+Algorithm\+::\+Decompress\+File (\begin{DoxyParamCaption}\item[{char \texorpdfstring{$\ast$}{*}}]{input\+Path,  }\item[{char \texorpdfstring{$\ast$}{*}}]{output\+Path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+decompress a file
+
+get buffer from input file
+
+read header to get infomation about huffman codes and padded bits
+
+get bitstring from the buffer
+
+get decoded buffer and write it to destination file\Hypertarget{classHuffmanGreedyAlgorithm_a5e13d60335421a8c7f6ca2785a774ae4}\label{classHuffmanGreedyAlgorithm_a5e13d60335421a8c7f6ca2785a774ae4} 
+\index{HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}!GetBufferFromString@{GetBufferFromString}}
+\index{GetBufferFromString@{GetBufferFromString}!HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}}
+\doxysubsubsection{\texorpdfstring{GetBufferFromString()}{GetBufferFromString()}}
+{\footnotesize\ttfamily unsigned char \texorpdfstring{$\ast$}{*} Huffman\+Greedy\+Algorithm\+::\+Get\+Buffer\+From\+String (\begin{DoxyParamCaption}\item[{string}]{bitstring,  }\item[{vector$<$ unsigned char $>$ \&}]{output\+Buffer,  }\item[{int \&}]{sz }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+get the bitstring from the above function, turn it into actual unsigned character that can be written into files, return the buffers\Hypertarget{classHuffmanGreedyAlgorithm_abea600a29ce2689be82562120cea6ecc}\label{classHuffmanGreedyAlgorithm_abea600a29ce2689be82562120cea6ecc} 
+\index{HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}!GetDecodedBuffer@{GetDecodedBuffer}}
+\index{GetDecodedBuffer@{GetDecodedBuffer}!HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}}
+\doxysubsubsection{\texorpdfstring{GetDecodedBuffer()}{GetDecodedBuffer()}}
+{\footnotesize\ttfamily unsigned char \texorpdfstring{$\ast$}{*} Huffman\+Greedy\+Algorithm\+::\+Get\+Decoded\+Buffer (\begin{DoxyParamCaption}\item[{string}]{bitstring,  }\item[{vector$<$ unsigned char $>$ \&}]{buffer,  }\item[{map$<$ unsigned char, string $>$}]{codes,  }\item[{int \&}]{sz,  }\item[{int}]{pad }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+from the bit string above, get the decoded string into buffer\Hypertarget{classHuffmanGreedyAlgorithm_a92b91586a36af11678103a586eab8e21}\label{classHuffmanGreedyAlgorithm_a92b91586a36af11678103a586eab8e21} 
+\index{HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}!GetHuffmanBitstring@{GetHuffmanBitstring}}
+\index{GetHuffmanBitstring@{GetHuffmanBitstring}!HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}}
+\doxysubsubsection{\texorpdfstring{GetHuffmanBitstring()}{GetHuffmanBitstring()}}
+{\footnotesize\ttfamily string Huffman\+Greedy\+Algorithm\+::\+Get\+Huffman\+Bitstring (\begin{DoxyParamCaption}\item[{unsigned char \texorpdfstring{$\ast$}{*}}]{buffer,  }\item[{map$<$ unsigned char, string $>$}]{codes,  }\item[{int}]{sz,  }\item[{int \&}]{pad }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+from huffman codes table and a buffer read from input, get a output string(but in bit so it need more processing)
+
+because each character is 8 bytes, so we need to pad some 0s to make sure that the number of bits is divisible for 8\Hypertarget{classHuffmanGreedyAlgorithm_a33b4be74ad8d06c03d1eb7cb844847af}\label{classHuffmanGreedyAlgorithm_a33b4be74ad8d06c03d1eb7cb844847af} 
+\index{HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}!GetStringFromBuffer@{GetStringFromBuffer}}
+\index{GetStringFromBuffer@{GetStringFromBuffer}!HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}}
+\doxysubsubsection{\texorpdfstring{GetStringFromBuffer()}{GetStringFromBuffer()}}
+{\footnotesize\ttfamily string Huffman\+Greedy\+Algorithm\+::\+Get\+String\+From\+Buffer (\begin{DoxyParamCaption}\item[{unsigned char \texorpdfstring{$\ast$}{*}}]{buffer,  }\item[{int}]{sz }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+this is used for decoding, from a arbitrary character in encoded file, get a bitstring from these character\Hypertarget{classHuffmanGreedyAlgorithm_adbe8567429f4200e2e12e14adedf5b0d}\label{classHuffmanGreedyAlgorithm_adbe8567429f4200e2e12e14adedf5b0d} 
+\index{HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}!ReadFileIntoBuffer@{ReadFileIntoBuffer}}
+\index{ReadFileIntoBuffer@{ReadFileIntoBuffer}!HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}}
+\doxysubsubsection{\texorpdfstring{ReadFileIntoBuffer()}{ReadFileIntoBuffer()}}
+{\footnotesize\ttfamily unsigned char \texorpdfstring{$\ast$}{*} Huffman\+Greedy\+Algorithm\+::\+Read\+File\+Into\+Buffer (\begin{DoxyParamCaption}\item[{char \texorpdfstring{$\ast$}{*}}]{path,  }\item[{int \&}]{sz }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+read the entire fire into the buffer
+
+get the size of file
+
+back to the beginning of the file\Hypertarget{classHuffmanGreedyAlgorithm_a964477250db8bd5f0f9fbd61ceeaec91}\label{classHuffmanGreedyAlgorithm_a964477250db8bd5f0f9fbd61ceeaec91} 
+\index{HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}!ReadHeader@{ReadHeader}}
+\index{ReadHeader@{ReadHeader}!HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}}
+\doxysubsubsection{\texorpdfstring{ReadHeader()}{ReadHeader()}}
+{\footnotesize\ttfamily unsigned char \texorpdfstring{$\ast$}{*} Huffman\+Greedy\+Algorithm\+::\+Read\+Header (\begin{DoxyParamCaption}\item[{unsigned char \texorpdfstring{$\ast$}{*}}]{buffer,  }\item[{map$<$ unsigned char, string $>$ \&}]{codes,  }\item[{int \&}]{pad,  }\item[{int \&}]{sz }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+when decode a file, first need to read the header to get infomation about padded bits and length of codes, bits in codes\Hypertarget{classHuffmanGreedyAlgorithm_a72ffb942b645db8ad1a01841628c5085}\label{classHuffmanGreedyAlgorithm_a72ffb942b645db8ad1a01841628c5085} 
+\index{HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}!ToBinary@{ToBinary}}
+\index{ToBinary@{ToBinary}!HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}}
+\doxysubsubsection{\texorpdfstring{ToBinary()}{ToBinary()}}
+{\footnotesize\ttfamily string Huffman\+Greedy\+Algorithm\+::\+To\+Binary (\begin{DoxyParamCaption}\item[{unsigned char}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+turn a character into its binary representation\Hypertarget{classHuffmanGreedyAlgorithm_a8170c7b7dd10cb52ee39b9a3282b0ad0}\label{classHuffmanGreedyAlgorithm_a8170c7b7dd10cb52ee39b9a3282b0ad0} 
+\index{HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}!TraverseHuffmanTree@{TraverseHuffmanTree}}
+\index{TraverseHuffmanTree@{TraverseHuffmanTree}!HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}}
+\doxysubsubsection{\texorpdfstring{TraverseHuffmanTree()}{TraverseHuffmanTree()}}
+{\footnotesize\ttfamily void Huffman\+Greedy\+Algorithm\+::\+Traverse\+Huffman\+Tree (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structTree}{Tree}} \texorpdfstring{$\ast$}{*}}]{root,  }\item[{string}]{prev,  }\item[{string}]{to\+Append,  }\item[{map$<$ unsigned char, string $>$ \&}]{codemap }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+traverse the tree and get the binary representation of huffman codes for each character in Huffman tree\Hypertarget{classHuffmanGreedyAlgorithm_a20ae928e1450bbe2601d47f95495a94a}\label{classHuffmanGreedyAlgorithm_a20ae928e1450bbe2601d47f95495a94a} 
+\index{HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}!WriteFileFromBuffer@{WriteFileFromBuffer}}
+\index{WriteFileFromBuffer@{WriteFileFromBuffer}!HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}}
+\doxysubsubsection{\texorpdfstring{WriteFileFromBuffer()}{WriteFileFromBuffer()}}
+{\footnotesize\ttfamily void Huffman\+Greedy\+Algorithm\+::\+Write\+File\+From\+Buffer (\begin{DoxyParamCaption}\item[{char \texorpdfstring{$\ast$}{*}}]{path,  }\item[{unsigned char \texorpdfstring{$\ast$}{*}}]{buffer,  }\item[{int}]{sz,  }\item[{int}]{flag }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+write the entire buffer to an output file if flag is not 0 we will append new text to file\Hypertarget{classHuffmanGreedyAlgorithm_a3b68e3cbb24aff692a8d8027a6f6c13a}\label{classHuffmanGreedyAlgorithm_a3b68e3cbb24aff692a8d8027a6f6c13a} 
+\index{HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}!WriteHeader@{WriteHeader}}
+\index{WriteHeader@{WriteHeader}!HuffmanGreedyAlgorithm@{HuffmanGreedyAlgorithm}}
+\doxysubsubsection{\texorpdfstring{WriteHeader()}{WriteHeader()}}
+{\footnotesize\ttfamily void Huffman\+Greedy\+Algorithm\+::\+Write\+Header (\begin{DoxyParamCaption}\item[{char \texorpdfstring{$\ast$}{*}}]{path,  }\item[{map$<$ unsigned char, string $>$}]{codes,  }\item[{int}]{pad }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+we need to save information about tree to the encoded file so that we can decode it
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+huffmancoding.\+cpp\end{DoxyCompactItemize}
